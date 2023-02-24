@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(217, 54%, 11%) ;
+    Font size (paragraph): 18px;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    max-height: 600px;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 15px;
+}
+.nft{
+    width: 100%;
+    border-radius: 5px;
+}
+.title{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    margin-top: 30px;
+}
+.description{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid hsl(215,32%,27%);
+    margin-top: 25px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.price{
+    display:flex;
+    justify-content: left;
+}
+.eth{
+    margin-top: 0px;
+    margin-left: 7px;
+    color: hsl(178, 100%, 50%);
+}
+.time{
+    display:flex;
+    justify-content: right;
+}
+.days{
+    margin-top: 0px;
+    margin-left: 7px;
+    color: hsl(215, 51%, 70%);
+}
+.person{
+    display: flex;
+    margin-top: 15px;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.cr{
+    color: hsl(215, 51%, 70%);
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+span{
+    color: hsl(0, 0%, 100%);
+}
+span:hover{
+    color: hsl(178, 100%, 50%);
+}
+.nft:hover{
+
+    opacity: 0.5;
+}
+.title:hover{
+    color: hsl(178, 100%, 50%);
+}
+@media screen  {
+    .card{
+        margin: 20px auto;
+    }
+}
